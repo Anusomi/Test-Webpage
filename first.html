@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Sample Webpage</title>
+    <link rel="stylesheet" href="./first.css">
+
+    <link rel="icon" href="./shutterstock_542544256-Sunflower.webp">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style>
+       body{
+    background-color: rgb(148, 221, 223);
+}
+button{
+    width: 200px;
+    background-color: rgb(57, 111, 63);
+}
+    </style>
+</head>
+<body>
+    <h1>My WebPage</h1> 
+   
+    <div class="container-fluid bg-primary"><label>Today is:</label><input type="datetime-local">
+        <ul class="pagination float-end">
+        <li class="page-item-sm "><a class="page-link bg-info text-light" href="https://www.google.com" target="blank">Google </a></li>
+        <li class="page-item-sm"><a class="page-link bg-info text-light" href="https://www.youtube.com" target="blank"> Youtube</a></li>
+    </div><br><br>
+
+     <div class="row">
+        <div class="col bg-danger">1</div>
+        <div class="col bg-white"></div>
+        <div class="col bg-secondary"></div>
+        <div class="col bg-success"></div>
+        </div><br>
+    <table class="table table-striped">
+        <thead>
+            <th>Subject</th>
+            <th>Teachers</th>
+            <th>Status</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>VIkram</td>
+                <td><button type="button" class="btn btn-outline-secondary active"><a href="../html/htmlnotes.txt" target="blank">HTML</a></button></td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Ameer
+                <td><button type="button" class="btn btn-outline-secondary active"><a href="../css/cssnotes.txt" target="blank">CSS</a></button></td>
+            </tr>
+            <tr>
+                <td>Bootstrap</td>
+                <td>Ameer</td>
+                <td><button type="button" class="btn btn-outline-secondary active"><a href="../bootstrap/bootstrapnotes.txt" target="blank">Bootstrap</a></button></td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>VIkram</td>
+                <td><button type="button" class="btn btn-outline-secondary active"><a href="../js/js notes.txt" target="blank">JS</a></button></td>
+            </tr>
+            <tr>
+                <td>jQuery</td>
+                <td>VIkram</td>
+                <td><button type="button" class="btn btn-outline-secondary active">jQuery</button></td>
+            </tr>
+            <tr>
+                <td>DOM</td>
+                <td>Vikram</td>
+                <td><button type="button" class="btn btn-outline-secondary active">DOM</button></td>
+            </tr>            
+        </tbody>
+    </table>
+
+     
+</body>
+</html>
